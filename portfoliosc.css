@@ -1,6 +1,6 @@
 :root {
-    --header-font: 'Playfair Display', serif;
-    --content-font: 'EB Garamond', serif;
+    --header-font: 'Press Start 2P', cursive;
+    --content-font: 'VT323', monospace;
     --primary-color: #2a570f;
     --secondary-color: white;
     --box-shadow: #465f37;
@@ -71,3 +71,20 @@ p {
     line-height: 1.5;
     text-align: center;
   }
+
+.primary-link {
+    color: black;
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: var(--primary-color); 
+    box-shadow: 3px 3px var(--box-shadow);
+    text-transform: capitalize;
+}
+ .primary-link:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    transition: 0.5s ease-in-out;
+    border-color: white;
+ }
