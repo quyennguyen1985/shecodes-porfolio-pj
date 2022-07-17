@@ -1,6 +1,6 @@
 :root {
     --header-font: 'Press Start 2P', cursive;
-    --content-font: 'VT323', monospace;
+    --content-font: 'Josefin Sans', sans-serif;
     --primary-color: #2a570f;
     --secondary-color: white;
     --box-shadow: #465f37;
@@ -9,8 +9,8 @@
 body {
     background: var(--secondary-color);
     text-align: center;
-    margin: 60px auto;
-    max-width: 1000px;
+    margin: 5px auto;
+    max-width: 1100px;
 }
 
 .container {
@@ -52,8 +52,14 @@ a.link:hover {
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: var(--content-font);
   }
   
+.navbar-brand {
+    font-family: var(--header-font);
+    color: var(--primary-color);
+}
+
 .navigation-links {
     display: flex;
     justify-content: center;
@@ -61,6 +67,18 @@ a.link:hover {
 
 .nav-link active {
     color: var(--primary-color);
+}
+
+.nav-link:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px var(--primary-color);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+  .nav-link:hover:after { 
+    transform: scaleX(1); 
 }
 
 p {
@@ -88,3 +106,10 @@ p {
     transition: 0.5s ease-in-out;
     border-color: white;
  }
+
+ .space {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+  }
+
