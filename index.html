@@ -4,25 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+      <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-    <link href="portfoliosc.css" rel="stylesheet" />
-    <title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">    
+<link href="portfoliosc.css" rel="stylesheet" />
+
 </head>
 <body>
     <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Quyen Nguyen</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active homepage"
+                      aria-current="page"
+                      href="about.html"
+                      >About me</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link about" href="works.html">My gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link contact" href="about.html#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1>
-            Hi! I am 
+            I am
             <br />
             <span class="name">  Quyen Nguyen </span>
-        </h1>
-        <h2>
-            Front-end developer based in Saigon, Vietnam
-        </h2>
-        <button>
-            Let's get in touch
-        </button>
+        <br /> 
+        <br />
+        and this is the portfolio of the future
+    </h1>
+        <br />
+        <div class="navigation-links" >
+            <a class="link" href="about.html#contact">Let's get in touch</a>
+            <a class="link" href="about.html">About me</a>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="images/yoga.png"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3">Yoga app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+              quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+              eos eveniet alias temporibus deserunt veritatis minima fugiat
+              explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <center class="d-sm-block">
+                <a href="#" class="primary-link project-link">Launch Yoga app</a>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h2 class="mb-3">Weather app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+              quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+              eos eveniet alias temporibus deserunt veritatis minima fugiat
+              explicabo eum dolore.
+            </p>
+            <div class="mb-5 mt-5">
+              <center class="d-sm-block">
+                <a href="#" class="primary-link project-link"
+                  >Launch Weather app</a
+                >
+              </center>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/weather.png"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img
+              src="images/yogurt.png"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3">Yogurt app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+              quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+              eos eveniet alias temporibus deserunt veritatis minima fugiat
+              explicabo eum dolore.
+            </p>
+            <div class="mt-5 mb-5">
+              <center class="d-sm-block">
+                <a href="#" class="primary-link project-link"
+                  >Launch Yogurt app</a
+                >
+              </center>
+            </div>
+          </div>
     </div>
 </body>
 </html>

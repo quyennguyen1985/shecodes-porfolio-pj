@@ -9,11 +9,14 @@
 body {
     background: var(--secondary-color);
     text-align: center;
+    margin: 60px auto;
+    max-width: 1000px;
 }
 
 .container {
     padding: 100px 50px;
     margin: 0 auto;
+    font-family: var(--content-font);
 }
 
 h1 {
@@ -25,18 +28,46 @@ h1 {
     font-weight: 500px;
 }
 
-button {
+a.link {
+    color: black;
+    text-decoration: none;
     padding: 30px 40px;
     border-radius: 20px;
     font-size: 20px;
     border-color: var(--primary-color); 
     box-shadow: 3px 3px var(--box-shadow); 
+    text-transform: capitalize;
 }
-
-button:hover {
+ 
+a.link:hover {
     color: var(--secondary-color);
     background: var(--primary-color);
     transition: 0.5s ease-in-out;
     border-color: white;
+
 }
 
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navigation-links {
+    display: flex;
+    justify-content: center;
+  }
+
+.nav-link active {
+    color: var(--primary-color);
+}
+
+p {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
