@@ -21,6 +21,7 @@ body {
 
 h1 {
     font-family: var(--header-font);
+    margin: 20px;
 }
 
 .name {
@@ -113,3 +114,12 @@ p {
     display: inline-block;
   }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+p.info {
+    text-align: justify;
+    margin: 70px;
+}
