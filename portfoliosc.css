@@ -32,6 +32,31 @@ h1.hero {
   transform: translate(-50%, -50%);
 }
 
+.pima-collection {
+width: 1000px;
+height: 1000px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pima-header {
+    color: var(--primary-color);
+    text-align: left;
+    display: block;
+}
+
+.pima-description {
+    text-align: left;
+    display: block;
+    margin: 10px;
+}
+
+img.pima-logo {
+    opacity: 0.3;
+}
+
 .name {
     font-size: 100px;
     font-weight: 500px;
