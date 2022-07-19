@@ -9,7 +9,7 @@
 body {
     background: var(--secondary-color);
     text-align: center;
-    margin: 5px auto;
+    margin: 10px auto;
     max-width: 1100px;
 }
 
@@ -108,7 +108,7 @@ a.link:hover {
     color: var(--primary-color);
 }
 
-.nav-link:after {
+.nav-link:after, .link-to-git:after {
     display: block;
     content: '';
     border-bottom: solid 3px var(--primary-color);  
@@ -118,6 +118,10 @@ a.link:hover {
 
   .nav-link:hover:after { 
     transform: scaleX(1); 
+}
+
+.link-to-git:hover:after {
+    transform: scaleX(0.3);
 }
 
 p {
@@ -165,4 +169,24 @@ p.info {
 i {
     font-size: 40px;
     color: var(--primary-color);
+}
+
+footer {
+    padding: 100px 40px;
+    padding-bottom: 10px;
+}
+
+.link-to-git {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.link-to-git:hover {
+    color: var(--primary-color);
+}
+
+.footer-paragraph {
+    padding: 70px;
+    margin: 0 auto;
 }
