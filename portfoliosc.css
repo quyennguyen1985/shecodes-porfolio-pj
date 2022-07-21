@@ -66,7 +66,12 @@ img.bg-logo {
 
 .name {
     font-size: 100px;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.name-mobile {
+    font-size: 185%;
+    font-weight: 800;
 }
 
 a.link {
