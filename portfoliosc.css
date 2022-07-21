@@ -9,13 +9,14 @@
 body {
     background: var(--secondary-color);
     text-align: center;
+    width: 100%;
 }
 
 .container {
+    width: 100%;
     padding: 100px 50px;
     margin: 0 auto;
-    font-family: var(--content-font);
-}
+    font-family: var(--content-font);}
 
 h1, h2, h5 {
     font-family: var(--header-font);
@@ -34,34 +35,38 @@ h1.hero {
   transform: translate(-50%, -50%);
 }
 
+img {
+    width: 100%;
+}
+
 .pima-collection {
-width: 1000px;
 height: 1000px;
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
+
 
 .pima-header {
     color: var(--primary-color);
     text-align: left;
-    display: block;
 }
 
 .pima-description {
     text-align: left;
     display: block;
-    margin: 10px;
+    margin: 50px;
 }
 
 img.bg-logo {
     opacity: 0.3;
+    width: 100%;
 }
 
 .name {
     font-size: 100px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 a.link {
@@ -129,6 +134,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    
   }
 
 .primary-link {
@@ -155,7 +161,7 @@ p {
   }
 
   .img-fluid {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
